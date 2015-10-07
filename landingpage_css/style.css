@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+}
+body{
+    width: 100%;
+    min-width: 1336px;
+    background: url('../img/background_triangle.png');
+}
+.container{
+    width: 1170px;
+}
+.border-right{
+    border-right: 1px solid #aaa;
+}
+.full-width{
+    width: 100%;
+}
+.bg-red{
+    background: #810c15;
+    color: #fff;
+}
+.color-red{
+    color: #810c15;
+}
+.active-menu{
+    font-weight: bold;
+    font-size: 16px;
+}
+.title-h4{
+    color: #810c15;
+    font-size: 25px;
+    font-weight: bold;
+    /*margin: 25px 0;*/
+}
+.col-xs-2-10{
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.border-bottom{
+    border-bottom: 1px solid #ccc;
+}
+.title-content{
+    font-weight: normal;
+}
+.active-title{
+    font-weight: bold;
+    color: #810c15 !important;
+    /* text-decoration: underline !important; */
+}
+.border{
+    border: 1px solid #ccc;
+}
+.h4-lg{
+    font-size: 25px;
+}
+.h5-lg{
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-2{
+    line-height: 2em;
+}
+.line-1-5{
+    line-height: 1.5em;
+}
+.border-red{
+    border: 1px solid #810c15;
+}
+.margin-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margin-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.margin-45{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.icon{
+    vertical-align: -1px;
+}
+.mr-top-20{
+    margin-top: 20px;
+}
+.mr-top-30{
+    margin-top: 30px;
+}
+.mr-top-45{
+    margin-top: 45px;
+}
+
+/*------------------------------*/
+
+#header ul li{
+    list-style: none;
+}
+#header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/*------------------------------*/
+
+#slide{
+    position: relative;
+    border-top: 2px solid #ccc;
+    box-shadow: 0px 3px 5px #ccc;
+}
+#form-dang-ky{
+    position: absolute;
+    right: 55px;
+    top: 36px;
+    border: 1px solid #ccc;
+    width: 400px;
+    padding: 0 15px;
+    background: #e8e8e8;
+}
+#form-dang-ky h4{
+    margin: 0 -15px;
+    padding: 15px 0;
+}
+#form-dang-ky i.fa{
+    font-size: 27px;
+    text-align: center;
+    color: #810c15;
+}
+#form-dang-ky label{
+    padding-right: 0;
+}
+#form-dang-ky button.btn:hover{
+    color: #fff;
+}
+
+/*------------------------------*/
+#content{
+    margin-top: 5px;
+}
+
+/*------------------------------*/
+
+#truyen-thong{
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+#truyen-thong div img{
+    width: 75%;
+    height: 60px;
+}
+#truyen-thong h4{
+    font-weight: bold;
+    color: #810c15;
+    font-size: 25px;
+    margin: 25px 0;
+}
+
+/*-------------------------*/
+
+.title-content a{
+    color: #000;
+    text-decoration: none;
+}
+
+/*------------------------------*/
+
+/*----- #bi-quyet khi là text -----
+#bi-quyet{
+    margin-top: 75px;
+    border: 2px solid #810c15;
+    border-radius: 5px;
+    position: relative;
+    padding-top: 15px;
+}
+#bi-quyet > img.nhanvat-bi-quyet{
+    position: absolute;
+    top: -50px;
+    left: 53px;
+    width: 100px;
+}
+#bi-quyet > h4{
+    font-size: 26px;
+    position: relative;
+}
+#bi-quyet > h4 > img{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    width: 100px;
+}*/
+
+/*------------------------------*/
+
+#footer{
+    margin-top: 30px;
+}
+#footer *{
+    color: #fff;
+}
+#footer i.fa{
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 4px;
+}
+#footer a{
+    line-height: 2em;
+}
